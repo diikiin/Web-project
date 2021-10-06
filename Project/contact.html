@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- shortcut icon -->
+		<link rel="shortcut icon" type="image/x-icon" href="img/home/main/icon.png">
+		<title>Almaty Pharmacy</title>
+
+		<!-- bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+		
+		<!-- font awesome -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<!-- css styles -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	</head>
+	<body>
+		<!-- -----------navbar------------ -->
+		<header id="header" class="fixed-top">
+			<nav class="navbar navbar-expand-lg navbar-dark" role="navigation">
+				<div class="container mx-auto">
+					<a href="index.html" class="navbar-brand ms-xl-5 me-sm-0 fs-2"><img class="navbar-logo" src="img/home/main/icon.png">Almaty Pharmacy</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent"
+					aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse justify-content-end" id="navContent">
+						<ul class="navbar-nav mb-3 mb-lg-0 fs-5 px-auto">
+							<li class="nav-item">
+								<a href="index.html" class="nav-link px-3">Home</a>
+							</li>
+							<li class="nav-item">
+								<a href="about.html" class="nav-link px-3">About us</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link active px-3" aria-current="page">Contact</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link px-3">Catalog</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link px-3">Cart</a>
+							</li>
+							<li class="nav-item">
+								<a href="login.html" class="nav-link sign-in px-3">Sign in</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		
+		<!-- -----------contact part------------ -->
+		<section class="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5 col-sm-12 mb-5">
+						<h1 class="fw-bolder text-uppercase text-center" style="color: var(--color1);">our address</h1>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2906.4264840671817!2d76.93974661544604!3d43.24248277913758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836ee810f8962d%3A0xd93abbab64ae0c54!2z0L_RgNC-0YHQvy4g0JDQsdCw0Y8gNDcsINCQ0LvQvNCw0YLRiyAwNTAwMDA!5e0!3m2!1sru!2skz!4v1632934432513!5m2!1sru!2skz" width="100%" height="100%" style="border:0; min-height: 200px;" allowfullscreen="" loading="lazy"></iframe>
+					</div>
+					<div class="col-lg-6 col-sm-12 text-center">
+						<h1 class="fw-bolder text-uppercase" style="color: var(--color1);">How can we help you today?</h1>
+						<p class="fs-5" style="font-family: 'Rosarivo';">Write what you need and we will answer you within one business day</p>
+						<form action="#" id="contact-form">
+							<div class="mb-4"><input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required></div>
+							<div class="mb-4"><input type="tel" id="phone" name="phone" class="form-control" placeholder="Enter your phone number" pattern="+7-([0-9]{3})-[0-9]{3}-[0-9]{2}-[0-9]{2}" required></div>
+							<div class="mb-4"><input type="email" id="email" name="email" class="form-control" placeholder="Enter your email address" required></div>
+							<div class="mb-4"><textarea form="contact-form" class="form-control" id="message" name="message" placeholder="Enter your message"  required></textarea></div>
+							<button form="contact-form" type="submit" class="btn contact-btn">Send</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- -----------footer part------------ -->
+		<footer id="footer">
+			<div class="footer-info pt-3">
+				<div class="container">
+					<div class="row justify-content-evenly">
+						<div class="col-sm-4 text-center">
+							<h2>Working Hours</h2>
+							<h4>Mon – Fri 9:00am – 5:30pm
+								<br>Saturday 9:00am – 12:00pm
+								<br>Sunday Closed</h4>
+						</div>
+						<div class="col-sm-4 text-center">
+							<h2>Location</h2>
+							<h4>Almaty, Almaly district,
+								Abay avenue 47</h4>
+						</div>
+					</div>
+					<div class="row justify-content-evenly pb-3">
+						<div class="col-sm-4 text-center">
+							<h2>Contact</h2>
+							<h4>Phone: +7 797 444 33 11</h4>
+						</div>
+						<div class="col-sm-4 text-center">
+							<h2>Follow us</h2>
+							<h4><a href="#"><i class="bi bi-facebook"></i></a>
+							<a href="#"><i class="bi bi-telegram"></i></a>
+							<a href="#"><i class="bi bi-twitter"></i></a>
+							<a href="#"><i class="bi bi-instagram"></i></a></h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-creator">
+				<div class="col-12 text-center">Created by Kabyl Dauren</div>
+			</div>
+		</footer>
+
+		<!-- js script from bootstrap -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+		
+		<!-- ad script -->
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5680276229550252" crossorigin="anonymous"></script>
+		
+	</body>
+</html>
